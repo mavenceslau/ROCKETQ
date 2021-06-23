@@ -1,3 +1,7 @@
+/* Justify-content : alinhamento horizontal
+align-itens: alinhamento vertical
+Isso quando o flex-direction for row */
+
 /*Reset - Deixa o navegador cru, sem as configurações indicadas antes e aplicar as nossas*/
 *{
     margin: 0;
@@ -19,7 +23,7 @@ html{
 
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
-    --grey-medium: #D3D9E2;
+    --grey-medium: #eaecf1;
     --grey-ligth: #E5EAF1;
 
   /* 1rem = 16px (User Agent) = 100% (User Agent)*/
@@ -88,7 +92,7 @@ button:hover, .button:hover
 }
 
 /* Deu diferença no Layout */
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem;
@@ -101,6 +105,19 @@ button.outlined,
     border:.2rem solid var(--blue);
 }
 
+button.red,
+.button.red{
+ background: var(--red);
+ color: var(--white);
+}
+
+button.grey,
+.button.grey{
+ background: var(--grey-ligth);
+ color: var(--grey-dark);
+}
+
+/* Header */
 .content header{
     width: 80%;
     margin: 3.5rem auto;
