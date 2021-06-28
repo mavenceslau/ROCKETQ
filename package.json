@@ -1,0 +1,30 @@
+{
+  "name": "ROCKETQ",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuarios direcionados ao dono da pagina. Projeto desenvolvido na semana NLW da Rocketseat na missão Discovery",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavenceslau/ROCKETQ.git"
+  },
+  "keywords": [],
+  "author": "Marcos Antonio Venceslau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mavenceslau/ROCKETQ/issues"
+  },
+  "homepage": "https://github.com/mavenceslau/ROCKETQ#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
